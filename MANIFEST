@@ -1,0 +1,8 @@
+ChangeLog
+MANIFEST
+Makefile.PL
+LICENSE
+META.yml                                 Module meta-data (added by MakeMaker)
+lib/WebDyne/Template.pm
+lib/WebDyne/Template/VERSION.pm
+t/00-load.t
