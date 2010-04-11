@@ -1,3 +1,11 @@
+commit a2162b86e3f0cdecdd559cabcb07476f337cd70e
+Author: Andrew Speer <andrew@webdyne.org>
+Date:   Mon Apr 12 00:08:31 2010 +0930
+
+    Tag: WebDyne-Template_1.017
+    
+    Added basic POD documentation.
+
 commit dae78996eec76cc98bcba1988f02a83c13789b53
 Author: Andrew Speer <andrew@webdyne.org>
 Date:   Sun Apr 11 22:12:40 2010 +0930

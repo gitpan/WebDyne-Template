@@ -394,3 +394,54 @@ sub filter {
 }
 
 
+__END__
+
+=head1 Name
+
+WebDyne::Template - WebDyne extension module that implements document templating
+
+=head1 Description
+
+WebDyne::Template is a WebDyne extension module that implements document
+templating.  You can set templates for locations or sites, e.g.  menu
+sidebars, header, copyright information etc.  All psp documents within the
+scope of the location will then be embedded into the templates.
+
+Templates are WebDyne documents also - they can dynamically change (e.g.
+cascading menus, breadcrumb tracking etc.) based on any arbitrary criterea
+you determine.
+
+The target documents within the templating location do not have to be
+modified - the WebDyne::Template module will parse out head and body
+sections of requested documents and embed them into the location template as
+appropriate
+
+=head1 Documentation
+
+Information on configuration and usage is availeble from the WebDyne site,
+http://webdyne.org/ - or from a snapshot of current documentation in PDF
+format available in the WebDyne module source /doc directory.
+
+=head1 Copyright and License
+
+Webdyne::Template is Copyright (C) 2006-2010 Andrew Speer. WebDyne::Session is
+dual licensed.  It is released as free software released under the Gnu
+Public License (GPL), but is also available for commercial use under a
+proprietary license - please contact the author for further information.
+
+WebDyne::Session is written in Perl and uses modules from CPAN (the
+Comprehensive Perl Archive Network).  CPAN modules are Copyright (C) the
+owner/author, and are available in source from CPAN directly.  All CPAN
+modules used are covered by the Perl Artistic License.
+
+=head1 Author
+
+Andrew Speer, andrew@webdyne.org
+
+=head1 Bugs
+
+Please report any bugs or feature requests to "bug-webdyne-template at
+rt.cpan.org", or via
+http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WebDyne-Template
+
+

@@ -2,6 +2,7 @@ ChangeLog
 MANIFEST
 Makefile.PL
 LICENSE
+README
 META.yml                                 Module meta-data (added by MakeMaker)
 lib/WebDyne/Template.pm
 lib/WebDyne/Template/VERSION.pm
