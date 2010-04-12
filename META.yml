@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebDyne-Template
-version:            1.017
+version:            1.018
 abstract:           ~
 author:
     - Andrew Speer <andrew@webdyne.org>
