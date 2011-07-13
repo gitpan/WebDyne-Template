@@ -45,7 +45,7 @@ my %makefile=(
 
     PREREQ_PM				  =>  do { $prereq_hr={
 
-	'WebDyne::Chain'		  =>  undef
+	'WebDyne::Chain'		  =>  0
 
        }; ($ENV{'PREREQ_PM'} eq '0') ? {} : $prereq_hr },
 

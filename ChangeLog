@@ -1,3 +1,11 @@
+commit fc0e771339a2dfc7119d73252d80df2c032834b9
+Author: Andrew Speer <andrew@webdyne.org>
+Date:   Wed Jul 13 17:23:40 2011 +0930
+
+    Tag: WebDyne-Template_1.019
+    
+    Modify Makefile PREREQ section to be more compatible with older version of CPAN
+
 commit b664d7774d6ac73293e51957a73e8cd921425463
 Author: Andrew Speer <andrew@webdyne.org>
 Date:   Mon Apr 12 12:43:50 2010 +0930
