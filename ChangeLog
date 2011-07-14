@@ -1,3 +1,11 @@
+commit 50faa1e86c8251f987e795aa1d0560620164bb8e
+Author: Andrew Speer <andrew@webdyne.org>
+Date:   Thu Jul 14 16:31:41 2011 +0930
+
+    Tag: WebDyne-Template_1.022
+    
+    Changed to new versioning system - dist version now held in main module and removed from VERSION.pm file.
+
 commit fc0e771339a2dfc7119d73252d80df2c032834b9
 Author: Andrew Speer <andrew@webdyne.org>
 Date:   Wed Jul 13 17:23:40 2011 +0930

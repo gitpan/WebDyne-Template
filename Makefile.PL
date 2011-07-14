@@ -38,10 +38,9 @@ my %makefile=(
     VERSION_FROM			  =>  File::Spec->catfile(
 
 	'lib',
-	split(/::/, __PACKAGE__),
-	'VERSION.pm'
+	split(/::/, __PACKAGE__)
 
-       ),
+       ).'.pm',
 
     PREREQ_PM				  =>  do { $prereq_hr={
 
