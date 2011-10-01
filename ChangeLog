@@ -1,3 +1,11 @@
+commit a1cdf90da0ed434fbb380054b6ddbc4d592fa0dd
+Author: Andrew Speer <andrew@webdyne.org>
+Date:   Sun Oct 2 01:48:10 2011 +0930
+
+    Tag: WebDyne-Template_1.023
+    
+    Made compliant with new Webdyne metafile structure, include template in meta manifest
+
 commit 50faa1e86c8251f987e795aa1d0560620164bb8e
 Author: Andrew Speer <andrew@webdyne.org>
 Date:   Thu Jul 14 16:31:41 2011 +0930

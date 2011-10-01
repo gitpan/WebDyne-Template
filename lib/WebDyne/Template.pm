@@ -43,7 +43,7 @@ use File::Spec;
 #  Version information in a formate suitable for CPAN etc. Must be
 #  all on one line
 #
-$VERSION='1.022';
+$VERSION='1.023';
 
 
 #  Debug 
@@ -197,6 +197,14 @@ sub filter {
     #my $perl_main_ar=$meta_main_hr->{'perl'};
     my $perl_template_ar=$meta_template_hr->{'perl'};
     push @{$meta_main_hr->{'perl'}}, @{$perl_template_ar};
+    my $perl_debug_template_ar=$meta_template_hr->{'perl_debug'};
+    push @{$meta_main_hr->{'perl_debug'}}, @{$perl_debug_template_ar};
+
+
+    #  Concatenate manifest sections
+    #
+    my $srce_template_ar=$meta_template_hr->{'manifest'};
+    push @{$meta_main_hr->{'manifest'}}, @{$srce_template_ar};
 
 
     #  Below fixes up HEAD section
